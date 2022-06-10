@@ -1,2 +1,6 @@
-package PACKAGE_NAME;public interface Propuesta {
+public interface Propuesta {
+
+  public void aplicarEnGuardarropa(Guardarropa guardarropa);
+
+  public void deshacer(Guardarropa guardarropa);
 }
